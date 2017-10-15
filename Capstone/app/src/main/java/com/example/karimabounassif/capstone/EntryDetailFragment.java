@@ -18,15 +18,11 @@ import com.example.karimabounassif.capstone.dummy.DummyContent;
  * on handsets.
  */
 public class EntryDetailFragment extends Fragment {
-    /**
-     * The fragment argument representing the item ID that this fragment
-     * represents.
-     */
+
+
     public static final String ARG_ITEM_ID = "item_id";
 
-    /**
-     * The dummy content this fragment is presenting.
-     */
+
     private DummyContent.DummyItem mItem;
 
     /**
@@ -49,7 +45,7 @@ public class EntryDetailFragment extends Fragment {
             Activity activity = this.getActivity();
             CollapsingToolbarLayout appBarLayout = (CollapsingToolbarLayout) activity.findViewById(R.id.toolbar_layout);
             if (appBarLayout != null) {
-                appBarLayout.setTitle(mItem.content);
+                appBarLayout.setTitle(mItem.name);
             }
         }
     }
@@ -61,7 +57,8 @@ public class EntryDetailFragment extends Fragment {
 
         // Show the dummy content as text in a TextView.
         if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.entry_detail)).setText(mItem.details);
+            ((TextView) rootView.findViewById(R.id.entry_detail)).setText("$"+mItem.remainingStocks + " total equity." +
+                                                                          "\n" + "$" + mItem.stockPrice + "/stock");
         }
 
         return rootView;

@@ -8,12 +8,20 @@
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/drawable/abc_btn_check_material.xml"
     },
     {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/junc.png",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/drawable/junc.png"
+    },
+    {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/ebay.jpg",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/drawable/ebay.jpg"
     },
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
@@ -62,6 +70,10 @@
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/foo.jpg",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/drawable/foo.jpg"
     },
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
@@ -122,6 +134,10 @@
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/au.png",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/drawable/au.png"
     },
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",

@@ -12,6 +12,7 @@ import android.support.design.widget.Snackbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -20,19 +21,13 @@ import com.example.karimabounassif.capstone.dummy.DummyContent;
 import java.util.List;
 
 /**
- * An activity representing a list of Entries. This activity
- * has different presentations for handset and tablet-size devices. On
+ * An activity representing a list of Entries.  On
  * handsets, the activity presents a list of items, which when touched,
  * lead to a {@link EntryDetailActivity} representing
- * item details. On tablets, the activity presents the list of items and
- * item details side-by-side using two vertical panes.
+ * item details.
  */
 public class EntryListActivity extends AppCompatActivity {
-
-    /**
-     * Whether or not the activity is in two-pane mode, i.e. running on a tablet
-     * device.
-     */
+    
     private boolean mTwoPane;
 
     @Override
@@ -88,9 +83,15 @@ public class EntryListActivity extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
+            String imgName = mValues.get(position).imageName;
             holder.mItem = mValues.get(position);
-            holder.mIdView.setText(mValues.get(position).id);
-            holder.mContentView.setText(mValues.get(position).content);
+            holder.mImageView.setImageResource(getResources().getIdentifier(imgName, "drawable", getPackageName()));
+            holder.mContentView.setText(mValues.get(position).name);
+            holder.mIdView.setText("$"+mValues.get(position).stockPrice + " per stock."
+                                    +"\n$"+mValues.get(position).remainingStocks + " total equity.");
+            //holder.mPriceView.setText(mValues.get(position).stockPrice);
+
+
 
             holder.mView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -121,15 +122,19 @@ public class EntryListActivity extends AppCompatActivity {
 
         public class ViewHolder extends RecyclerView.ViewHolder {
             public final View mView;
-            public final TextView mIdView;
             public final TextView mContentView;
             public DummyContent.DummyItem mItem;
+            public final ImageView mImageView;
+            //public final TextView mPriceView;
+            public final TextView mIdView;
 
             public ViewHolder(View view) {
                 super(view);
                 mView = view;
-                mIdView = (TextView) view.findViewById(R.id.id);
                 mContentView = (TextView) view.findViewById(R.id.content);
+                //mPriceView = (TextView) view.findViewById(R.id.id);
+                mImageView = (ImageView) view.findViewById(R.id.img);
+                mIdView = (TextView) view.findViewById(R.id.id);
             }
 
             @Override

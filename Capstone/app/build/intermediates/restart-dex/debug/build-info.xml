@@ -6,36 +6,32 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1508027227209"
+    timestamp="1508103865786"
     token="2451253266456685275"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1153" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="274" />
+        duration="0" />
     <task
         name="verifier"
-        duration="11" />
-
-    <artifact
-        location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1508026663737"
+        timestamp="1508094356379"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -70,11 +66,32 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1508027227209"
+        timestamp="1508103643540"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/karimabounassif/Projects/Capstone/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1508103830029"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/karimabounassif/Projects/Capstone/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1508103865786"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
