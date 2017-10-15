@@ -1,0 +1,7 @@
+#Tue Sep 26 11:49:17 EDT 2017
+base.0=/Users/karimabounassif/Projects/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1dc62ff08b91e6e92529a13f69fbd3723250b44d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/karimabounassif/Projects/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_08cfbc818a85e2db2161d5a129a8ed50882d68da/classes.dex
+base.1=/Users/karimabounassif/Projects/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_08cfbc818a85e2db2161d5a129a8ed50882d68da
+file.0=/Users/karimabounassif/Projects/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1dc62ff08b91e6e92529a13f69fbd3723250b44d/classes.dex
