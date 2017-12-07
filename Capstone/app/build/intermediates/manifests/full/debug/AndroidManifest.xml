@@ -32,6 +32,7 @@
         <activity
             android:name="com.example.karimabounassif.capstone.EntryListActivity"
             android:label="@string/title_entry_list"
+            android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.karimabounassif.capstone.EntryDetailActivity"
@@ -42,6 +43,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.karimabounassif.capstone.EntryListActivity" />
         </activity>
+        <activity
+            android:name="com.example.karimabounassif.capstone.StartupScreen"
+            android:label="@string/title_activity_startup_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.karimabounassif.capstone.StartupFill"
+            android:label="@string/title_activity_startup_fill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.karimabounassif.capstone.UserPage"
+            android:label="@string/title_activity_user_page" />
     </application>
 
 </manifest>

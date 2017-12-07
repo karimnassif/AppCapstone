@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +19,9 @@ import android.widget.TextView;
 
 import com.example.karimabounassif.capstone.dummy.DummyContent;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -26,43 +30,64 @@ import java.util.List;
  * lead to a {@link EntryDetailActivity} representing
  * item details.
  */
+
+
 public class EntryListActivity extends AppCompatActivity {
-    
-    private boolean mTwoPane;
+
+    static List<DummyContent.DummyItem> infoDB;
+    static DummyContent.DummyItem current;
+    static User user;
+    String[] temp;
+    String[] info;
+
+    public List<DummyContent.DummyItem> items(ArrayList<String[]> initial){
+        List<DummyContent.DummyItem> returnList = new LinkedList<>();
+        for(int i=0; i<=initial.size()-1; i++){
+            temp = initial.get(i);
+            DummyContent.DummyItem dummy = new DummyContent.DummyItem(temp[0],temp[1],temp[2],temp[3],temp[4]);
+            returnList.add(dummy);
+        }
+        return returnList;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        Bundle b = getIntent().getExtras();
+        info = b.getStringArray("user");
+        user = new User(info[0],info[1],info[2],info[3],info[4]);
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry_list);
 
+        myDbAdapter helper = new myDbAdapter(this);
+        infoDB = items(helper.fetchCompanies());
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle(getTitle());
+
+        int funds = 150000;
+        toolbar.setTitle(Integer.toString(funds));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Context c = view.getContext();
+                Intent userPage = new Intent(c, UserPage.class);
+                c.startActivity(userPage);
             }
         });
 
         View recyclerView = findViewById(R.id.entry_list);
         assert recyclerView != null;
-        setupRecyclerView((RecyclerView) recyclerView);
+        setupRecyclerView((RecyclerView) recyclerView, infoDB);
 
-        if (findViewById(R.id.entry_detail_container) != null) {
-            // The detail container view will be present only in the
-            // large-screen layouts (res/values-w900dp).
-            // If this view is present, then the
-            // activity should be in two-pane mode.
-            mTwoPane = true;
-        }
     }
 
-    private void setupRecyclerView(@NonNull RecyclerView recyclerView) {
-        recyclerView.setAdapter(new SimpleItemRecyclerViewAdapter(DummyContent.ITEMS));
+    private void setupRecyclerView(@NonNull RecyclerView recyclerView, List<DummyContent.DummyItem> infoDB) {
+        recyclerView.setAdapter(new SimpleItemRecyclerViewAdapter(infoDB));
     }
 
     public class SimpleItemRecyclerViewAdapter
@@ -83,34 +108,25 @@ public class EntryListActivity extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
+            current = mValues.get(position);
             String imgName = mValues.get(position).imageName;
             holder.mItem = mValues.get(position);
+            current = holder.mItem;
+            if(imgName != null)
+            {
             holder.mImageView.setImageResource(getResources().getIdentifier(imgName, "drawable", getPackageName()));
+            }
             holder.mContentView.setText(mValues.get(position).name);
             holder.mIdView.setText("$"+mValues.get(position).stockPrice + " per stock."
                                     +"\n$"+mValues.get(position).remainingStocks + " total equity.");
-            //holder.mPriceView.setText(mValues.get(position).stockPrice);
-
-
 
             holder.mView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View v) {
-                    if (mTwoPane) {
-                        Bundle arguments = new Bundle();
-                        arguments.putString(EntryDetailFragment.ARG_ITEM_ID, holder.mItem.id);
-                        EntryDetailFragment fragment = new EntryDetailFragment();
-                        fragment.setArguments(arguments);
-                        getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.entry_detail_container, fragment)
-                                .commit();
-                    } else {
-                        Context context = v.getContext();
+                public void onClick(View v) {           //When a company is clicked, this sends their id and their position
+                        Context context = v.getContext();     //in the company list to EntryDetail Activity to open more details.
                         Intent intent = new Intent(context, EntryDetailActivity.class);
                         intent.putExtra(EntryDetailFragment.ARG_ITEM_ID, holder.mItem.id);
-
                         context.startActivity(intent);
-                    }
                 }
             });
         }
@@ -125,14 +141,13 @@ public class EntryListActivity extends AppCompatActivity {
             public final TextView mContentView;
             public DummyContent.DummyItem mItem;
             public final ImageView mImageView;
-            //public final TextView mPriceView;
             public final TextView mIdView;
+
 
             public ViewHolder(View view) {
                 super(view);
                 mView = view;
                 mContentView = (TextView) view.findViewById(R.id.content);
-                //mPriceView = (TextView) view.findViewById(R.id.id);
                 mImageView = (ImageView) view.findViewById(R.id.img);
                 mIdView = (TextView) view.findViewById(R.id.id);
             }

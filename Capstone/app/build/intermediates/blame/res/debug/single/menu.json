@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/menu/menu_startup_screen.xml",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/menu/menu_startup_screen.xml"
+    }
+]

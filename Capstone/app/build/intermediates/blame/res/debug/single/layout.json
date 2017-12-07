@@ -8,8 +8,16 @@
         "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/layout/activity_entry_detail.xml"
     },
     {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/activity_user_page.xml",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/layout/activity_user_page.xml"
+    },
+    {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/activity_startup_fill.xml",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/layout/activity_startup_fill.xml"
     },
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
@@ -92,6 +100,10 @@
         "source": "/Users/karimabounassif/.android/build-cache/02727224f6e005ce092feb709beb714d0f901ad1/output/res/layout/design_navigation_item_separator.xml"
     },
     {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/content_startup_screen.xml",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/layout/content_startup_screen.xml"
+    },
+    {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
@@ -160,6 +172,10 @@
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout/notification_template_custom_big.xml"
     },
     {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/content_startup_fill.xml",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/layout/content_startup_fill.xml"
+    },
+    {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout/abc_activity_chooser_view.xml"
     },
@@ -214,6 +230,10 @@
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/activity_startup_screen.xml",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/layout/activity_startup_screen.xml"
     },
     {
         "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",

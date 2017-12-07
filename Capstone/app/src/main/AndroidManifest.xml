@@ -26,7 +26,8 @@
         <activity
             android:name=".EntryListActivity"
             android:label="@string/title_entry_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EntryDetailActivity"
             android:label="@string/title_entry_detail"
@@ -36,6 +37,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.karimabounassif.capstone.EntryListActivity" />
         </activity>
+        <activity
+            android:name=".StartupScreen"
+            android:label="@string/title_activity_startup_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartupFill"
+            android:label="@string/title_activity_startup_fill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserPage"
+            android:label="@string/title_activity_user_page"></activity>
     </application>
 
 </manifest>
