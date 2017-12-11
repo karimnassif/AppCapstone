@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/karimabounassif/Projects/AU Capstone/Capstone/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/karimabounassif/Projects/AU Capstone/Capstone/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/karimabounassif/Projects/Capstone/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b51f98b814e0759bd77af1cec8d0003ff45fcb86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4144bab4aa53420b241da91cf9da42e486062b17">
+        <dex dex="/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3051a53af2505ae95d80d25d48b2bc091b0e531d/classes.dex" />
+    </item>
+
+</items>

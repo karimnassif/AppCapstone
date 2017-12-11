@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/Capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/karimabounassif/.android/build-cache/f6d6937c7c2db1aca60ecd7b73caa000fee3741d/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

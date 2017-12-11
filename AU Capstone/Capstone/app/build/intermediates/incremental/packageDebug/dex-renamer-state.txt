@@ -1,0 +1,7 @@
+#Sun Dec 10 22:15:27 EST 2017
+base.0=/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b51f98b814e0759bd77af1cec8d0003ff45fcb86
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3051a53af2505ae95d80d25d48b2bc091b0e531d/classes.dex
+base.1=/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3051a53af2505ae95d80d25d48b2bc091b0e531d
+file.0=/Users/karimabounassif/Projects/AU Capstone/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b51f98b814e0759bd77af1cec8d0003ff45fcb86/classes.dex
