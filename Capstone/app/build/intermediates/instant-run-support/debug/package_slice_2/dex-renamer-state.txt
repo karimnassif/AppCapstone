@@ -1,4 +1,0 @@
-#Mon Dec 04 21:36:35 EST 2017
-base.0=/Users/karimabounassif/Projects/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
-renamed.0=classes.dex
-file.0=/Users/karimabounassif/Projects/Capstone/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
